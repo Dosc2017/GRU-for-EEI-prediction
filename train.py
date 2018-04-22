@@ -1,4 +1,4 @@
-# For complete repository, visit my github:
+
 # Dependency:
 # Python 3.6
 # TensorFlow 1.7
