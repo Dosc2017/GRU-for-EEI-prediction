@@ -56,6 +56,13 @@ time_size = 100
 class GRU:
 
     def __init__(self, input_dimensions, hidden_size, dtype=tf.float64):
+         """
+        input_dimensions: int
+        The size of the input vectors (x_t).
+        hidden_size: int
+        The size of the hidden layer vectors (h_t).
+        """
+
         self.input_dimensions = input_dimensions
         self.hidden_size = hidden_size
 
